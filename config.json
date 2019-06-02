@@ -1,0 +1,22 @@
+{
+  "inbounds": [
+    {
+      "port": 8888, // Vmess 协议服务器监听端口
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "74335d8d-ad8f-4591-8339-dae7b9fe1113" // id(UUID) 需要修改
+          }
+        ]
+      }
+    },
+    
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
